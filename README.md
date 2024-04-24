@@ -1,6 +1,6 @@
 # ⭐Meta's LLaMA3-Quantization🦌💎💫
 
-LLaMA3-Quantization is the official implementation of paper `"How Good Are Low-bit Quantized LLAMA3 Models?"`
+LLaMA3-Quantization is the official implementation of paper **`"How Good Are Low-bit Quantized LLAMA3 Models?"`**
 An Empirical Study [PDF](https://arxiv.org/abs/2404.14047). Created by researchers from The University of Hong Kong, Beihang University and ETH Zürich.
 
 ## 🌟 Introduction
@@ -27,24 +27,24 @@ python main.py \
     --tasks piqa,arc_easy,arc_challenge,hellaswag,winogrande
 ```
 
-## 🌟Results 💫
+# 🌟Results 💫
 
-### 👉Track1: Post-Training Quantization🌟
+## 👉Track1: Post-Training Quantization🌟
 
 
-####🔥Evaluation results of post-training quantization on LLAMA3-8B model🔥
+### 🔥Evaluation results of post-training quantization on LLAMA3-8B model🔥
 
   ![img](images/result_ptq_1.png)
 
 
-####🔥Evaluation results of post-training quantization on LLAMA3-70B model🔥
+### 🔥Evaluation results of post-training quantization on LLAMA3-70B model🔥
 
   ![img](images/result_ptq_2.png)
 
 
-### 👉Track2: LoRA-FineTuning Quantization🌟
+## 👉Track2: LoRA-FineTuning Quantization🌟
 
-####🔥LoRA-FT on LLAMA3-8B with Alpaca dataset🔥
+### 🔥LoRA-FT on LLAMA3-8B with Alpaca dataset🔥
 
   ![img](images/result_lora_ft_1.png)
 
